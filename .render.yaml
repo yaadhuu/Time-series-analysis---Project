@@ -2,7 +2,10 @@ services:
   - type: web
     name: time-series-analysis
     env: python
-    plan: free
+    pythonVersion: 3.10
+    plan: starter
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run time.py
-    pythonVersion: 3.10  # Recommended version, adjust if needed
+    startCommand: streamlit run time.py --server.port $PORT
+    envVars:
+      - key: PORT
+        value: "10000"
