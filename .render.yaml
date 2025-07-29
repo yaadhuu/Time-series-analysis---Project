@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run time.py"
+    startCommand: "streamlit run time.py --server.port $PORT --server.address 0.0.0.0"
