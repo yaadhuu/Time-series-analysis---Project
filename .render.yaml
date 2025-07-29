@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: time-series-app
+    name: time-series-analysis
     env: python
     plan: free
-    pythonVersion: "3.11"
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run time.py --server.port $PORT --server.address 0.0.0.0"
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run time.py
+    pythonVersion: 3.11  # Recommended version, adjust if needed
