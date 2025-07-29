@@ -3,5 +3,6 @@ services:
     name: time-series-app
     env: python
     plan: free
+    pythonVersion: "3.11"
     buildCommand: "pip install -r requirements.txt"
     startCommand: "streamlit run time.py --server.port $PORT --server.address 0.0.0.0"
