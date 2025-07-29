@@ -1,10 +1,10 @@
-setuptools>=65.0.0
-wheel
 streamlit==1.22.0
 pandas
 numpy
 yfinance
 prophet
 scikit-learn
-tensorflow-cpu==2.11.0
+tensorflow-cpu==2.10.1
 protobuf==3.19.6
+setuptools>=65.0.0
+wheel
