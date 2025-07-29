@@ -1,1 +1,7 @@
-
+services:
+  - type: web
+    name: time-series-analysis
+    env: python
+    pythonVersion: 3.10
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run time.py --server.port $PORT
