@@ -72,7 +72,7 @@ The project integrates multiple time series models — **Prophet, LSTM (Deep Lea
 4. **Run the Streamlit App**
 
    ```bash
-   streamlit run app.py
+   streamlit run time.py
    ```
 
 5. **Access the Dashboard**
