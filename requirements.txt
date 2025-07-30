@@ -6,5 +6,5 @@ prophet==1.1.5
 scikit-learn==1.2.2
 tensorflow==2.10.1
 statsmodels==0.13.5
-arch==5.7.0
+arch==5.6.0
 plotly==5.19.0
